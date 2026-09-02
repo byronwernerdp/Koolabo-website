@@ -60,15 +60,20 @@ header.nav {
   background: radial-gradient(ellipse at center, rgba(0,132,255,0.14) 0%, rgba(15,212,54,0.07) 45%, transparent 72%);
   filter: blur(20px); pointer-events: none;
 }
-.hero-logo { max-width: 420px; width: 80%; margin: 0 auto 36px; position: relative; }
+.hero-logo { max-width: 420px; width: 80%; margin: 0 auto 18px; position: relative; }
 .hero h1 {
   font-size: clamp(32px, 5vw, 54px); font-weight: 800; letter-spacing: -0.02em;
-  margin: 0 0 16px; position: relative;
+  margin: 0 0 8px; position: relative;
 }
 .hero p.sub {
   color: var(--text-dim); font-size: clamp(16px, 2vw, 19px);
-  max-width: 520px; margin: 0 auto 34px; position: relative;
+  max-width: 520px; margin: 0 auto 28px; position: relative;
 }
+.web-note {
+  color: var(--text-dim); font-size: 14px;
+  margin: -6px auto 22px; position: relative;
+}
+.web-note a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .hero-ctas { display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; position: relative; margin-bottom: 28px; }
 .store-badges { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; position: relative; margin-bottom: 56px; }
 .store-badge {
